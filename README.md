@@ -1,5 +1,5 @@
 # terraform_tfstate_mv
-### **Please note that you will need to modify, update, or create your Terraform configuration file for the new module, as these changes will affect the 'terraform.tfstate' file locally.
+### ** Please note that you will need to modify, update, or create your Terraform configuration file for the new module, as these changes will affect the 'terraform.tfstate' file locally.
 
 The code will move the Terraform state to a new one. This is useful when it is necessary to refactor the Terraform code.
 
