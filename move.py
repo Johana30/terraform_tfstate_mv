@@ -20,8 +20,8 @@ def move_modules_to_new_state(existing_state_file, new_state_file, old_module, n
 
 
 # Example usage:
-existing_state_file = "./python/terraform.tfstate"
-new_state_file = "new-state/terraform.tfstate"
+existing_state_file = "path-of-existing/terraform.tfstate"
+new_state_file = "path-of-new-state/terraform.tfstate"
 modules_to_move = [
     ("module.rds.aws_db_subnet_group.private", "module.rds.aws_db_subnet_group.private")
     ("module.rds.aws_rds_cluster.postgres", "module.rds.aws_rds_cluster.postgres")
