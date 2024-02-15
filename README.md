@@ -14,3 +14,5 @@ Execute:
 for old_module, new_module in modules_to_move:
     move_modules_to_new_state(existing_state_file, new_state_file, old_module, new_module)
 ```
+
+## **Please be aware that you will need to modify, update, or create your Terraform configuration file as the changes made affect the terraform.tfstate file**
