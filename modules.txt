@@ -1,0 +1,2 @@
+aws_route53_zone.primary, aws_route53_zone.primary
+aws_s3_bucket.site, aws_s3_bucket.site
